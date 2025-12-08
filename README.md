@@ -93,6 +93,13 @@ The `ZWOCamera` class provides a high-level interface to interact with ZWO ASI c
 
 For advanced applications or scientific control, you can call the original ASI SDK functions directly. This is identical to the official C API, just wrapped for Python.
 
+## Frequently Asked Questions (FAQ)
+
+<details>
+<summary>Why is my camera not detected?</summary>
+If you are on Windows, make sure you have installed the ZWO ASI Camera driver, as explained in the Installation section of this README. If this is the case or if you are on Linux or MacOS, most of the time the problem comes from a bad USB port or cable. Please try to change USB port and/or cable, especially if you are using a USB cable extension, try to remove it.
+</details>
+
 ## Contributing
 
 Contributions are welcome! Whether you fix a bug, improve documentation, add support for new SDK functions, or propose new high-level APIs, feel free to open an issue or submit a pull request. 
