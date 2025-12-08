@@ -381,6 +381,7 @@ class ZWOCamera:
             # Let's close the window if 'q' is pressed
             if cv2.waitKey(1) & 0xFF == ord('q'): break
 
+        self.stopVideoCapture()
         cv2.destroyAllWindows()
 
     def __del__(self):
