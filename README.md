@@ -27,6 +27,9 @@ It is designed to be simple to use for beginners, while remaining powerful enoug
 
 ## Installation
 
+> [!WARNING]
+> If you are working on Windows, the ZWO USB driver must be installed on the system before the module can detect any camera. You can download the latest driver from the [ZWO website > Software > Dekstop App > Windows > Camera Driver](https://www.zwoastro.com/software/). If you are on Linux or MacOS, no additional driver installation is needed.
+
 ### (Recommended) Using pip
 
 The safest and easiest way to install up-to-date PyZWOASI is to use its repository from PyPI using `pip` :
